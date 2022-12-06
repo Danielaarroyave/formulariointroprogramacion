@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario inicio</title>
+</head>
+<body style="background-color:#b6dff1;">
+    <center>
+        <h1 style="color:rgb(5, 88, 5);font-weight:bold;" >Formulario incial</h1>
+    </center>
+    <form action="#" method="post">
+        <label for="nombre" style="color:rgb(169, 20, 238);font-weight:bold;">Nombres:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escriba sus nombres" required> <br>
+
+        <label for="edad" style="color:rgb(169, 20, 238);font-weight:bold; ">Edad:</label>
+        <input type="number" name="edad" id="edad" min="0" max="130" required><br>
+
+
+        <label for="correo" style="color:rgb(169, 20, 238);font-weight:bold; ">Correo electronico:</label>
+        <input type="email" name="correo" id="corre" placeholder="Escribe tu correo electronico" required><br>
+
+    
+        <label for="tipoflor" style="color:rgb(169, 20, 238);font-weight:bold; ">Flor favorita</label>
+        <select name="tipoflor" id="tipoflor">
+            <option value="tipoflor">Rosas</option>
+            <option value="tipoflor">Margaritas</option>
+            <option value="tipoflor">Orquideas</option>
+           </select><br>
+
+        <label for="colorfavorito" style="color:rgb(169, 20, 238);font-weight:bold; ">Color favorito:</label><br>
+
+        <label for="colorfavorito">Rosa</label>
+        <input type="radio" name="colorfavorito" value="Rosa"><br>
+
+        <label for="colorfavorito">Blanca</label>
+        <input type="radio" name="colorfavorito" value="Blanca"><br>
+
+        <label for="colorfavorito">Rojo</label>
+        <input type="radio" name="colorfavorito" value="Rojo"> <br>
+
+        <label for="empleado" style="color:rgb(169, 20, 238);font-weight:bold; ">Que empleado te atendío</label>
+        <select name="empleado" id="empleado">
+            <option value="empleado">Juan Carlos</option>
+            <option value="empleado">Sara Mejía</option>
+            <option value="empleado">Sebastian Martínez</option>
+           </select><br>
+
+            <label for="calificacion" style="color:rgb(169, 20, 238);font-weight:bold; ">Califica la atención del 0 al 10</label>
+           <input type="range" name="calificacion" id="calificacion" aria-valuemax="10" aria-valuemin="0"><br>
+
+           <label for="valorcompra" style="color:rgb(169, 20, 238);font-weight:bold; ">Cual fue el valor de tu compra:</label>
+            <input type="number" id="valorcompra" name="valorcompra"> <br>
+
+            <label for="calidadflores" style="color:rgb(169, 20, 238);font-weight:bold;>Califica la caldiad de las flores del 0 al 10</label>
+           <input type="range" name="calidadflores" id="calidadflores" aria-valuemax="10" aria-valuemin="0"><br>
+
+           <label for="aquienregalo" style="color:rgb(169, 20, 238);font-weight:bold; ">Para quien fue tu regalo (10 to 20 characters):</label>
+            <input type="aquienregalo" id="aquienregalo" name="aquienregalo" required
+            minlength="10" maxlength="20" size="10"><br>
+
+            <label for="domicilio" style="color:rgb(169, 20, 238);font-weight:bold; ">¿Utilizaste domicilio?:</label><br>
+
+            <label for="domicilio">si</label>
+            <input type="radio" name="domicilio" value="si"><br>
+
+        <label for="domicilio">no</label>
+        <input type="radio" name="domicilio" value="no"><br>
+
+
+        <label for="caldomi" style="color:rgb(169, 20, 238);font-weight:bold; ">¿Como calificas al domiciliario?:</label><br>
+
+        <label for="caldomi">Bueno</label>
+        <input type="radio" name="caldomi" value="Bueno"><br>
+
+        <label for="caldomi">Malo</label>
+        <input type="radio" name="caldomi" value="Malo"><br>
+
+        <label for="caldomi">no aplica</label>
+        <input type="radio" name="caldomi" value="no aplica"><br>
+
+        <label for="horacompra" style="color:rgb(169, 20, 238);font-weight:bold;">¿A que hora fue tu compra?:</label>
+        <input type="time" id="horacompra" name="horacompra" min="01:00" max="24:00" required><br>
+
+        <label for="fecha" style="color:rgb(169, 20, 238);font-weight:bold;">¿En que fecha fue tu compra?:</label>
+        <input type="date" id="fecha" name="fecha"
+        value="2022-12-31"min="1980-01-01" max="2022-12-31"><br>
+
+        <label for="mediopago" style="color:rgb(169, 20, 238);font-weight:bold;">¿Que medio de pago utilizaste?</label>
+        <select name="mediopago" id="mediopago">
+            <option value="mediopago">Efectivo</option>
+            <option value="mediopago">Transferencia</option>
+            <option value="mediopago">Tarjeta</option>
+           </select><br>
+
+
+
+        <textarea name="comentario" id="comentario" cols="70" rows="10" placeholder="Ecribe tus comentarios"></textarea><br>
+
+
+        </select><br>
+
+        <input type="reset"> <br>
+        <input type="submit"><br>
+    </form>
+</body>
+</html>

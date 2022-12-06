@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floristeria sol y luna</title>
+</head>
+<body background="flores.jpg" style="background-size:cover;    background-repeat:no-repeat;background-position: center center;"> 
+
+  <center>
+        <h1 style="color:rgb(236, 11, 142);font-weight:bold;"> Floristeria sol y luna </h1>
+    </center>
+    <form action="#" method="post">
+
+    </form>
+    <table width="100%" border="0" cellspacing="0" cellpadding="10">
+    <tr><td colspan="2"><br><br>
+
+    <label for="nombre" style="color:blueviolet;font-weight:bold;"> <strong> Nombre:</strong></label>
+    <input type="text" name="nombre" id="nombre" placeholder="Escriba sus nombres" required size="25" maxlength="50"> <br> <br>
+
+    <label for="nombre" style="color:blueviolet;font-weight:bold;"><strong>Apellido</strong> :</label>
+    <input type="text" name="apellido" id="apellido" placeholder="Escriba sus apellidos" required size="35" maxlength="100"> <br> <br>
+
+    <label for="correo" style="color:blueviolet;font-weight:bold;"> <strong> Correo electronico:</strong></label>
+    <input type="email" name="correo" id="corre" placeholder="Escribe tu correo electronico" required size="40" maxlength="100"><br><br>
+
+    <label for="poblacion" style="color:blueviolet;font-weight:bold;" ><strong>¿Población?:</strong> </label>
+    <input type="text" name="poblacion" id="poblacion" placeholder="Escriba su población" required size="15" maxlength="50"> <br><br>
+
+    <label for="Provincia" style="color:blueviolet;font-weight:bold;"> <strong>¿Provincia?: </strong> </label>
+    <input type="text" name="Provincia" id="Provincia" placeholder="Escriba su provincia" required size="15" maxlength="50"><br><br>
+    
+    <label for="edad" style="color:blueviolet;font-weight:bold;"><strong> ¿En qué rago de edad estas?:</strong> </label><br><br>
+
+    <input type="radio" name="edad" value=" 0-20">
+    <label for="edad">0-20</label><br><br>
+
+    <input type="radio" name="edad" value="21-40">
+    <label for="edad">21-40</label><br> <br>
+
+    <input type="radio" name="edad" value="41-60">
+    <label for="edad">41-60</label><br><br>
+    
+    <input type="radio" name="edad" value="61-100">
+    <label for="edad">61-100</label><br><br>
+
+    
+    <legend style="color:blueviolet;font-weight:bold;"> ¿Donde nos conociste?:</legend>
+    
+    <div>
+    <input type="checkbox" id="amigo" name="amigo" checked>
+    <label for="amigo">A travez de un amigo</label>
+    </div>
+    
+    <div>
+    <input type="checkbox" id="buscador" name="buscador">
+    <label for="buscador">A travez de un buscador</label>
+    </div>
+   
+    <div>
+    <input type="checkbox" id="navegando" name="navengando">
+    <label for="navengando">Navegando por la red</label>
+    </div>
+   
+    <div>
+    <input type="checkbox" id="otros" name="otros">
+    <label for="otros">Otros</label>
+    </div>
+    
+    <label for="frecuencia" style="color:blueviolet;font-weight:bold;">¿Con que frecuencia navegas por internet</label><br> <br>
+  
+    <select name="frecuencia" id="frecuencia">
+    <option value="frecuencia">2 horas al día.</option>
+    <option value="frecuencia">4 horas al día.</option>
+    <option value="frecuencia">10 horas a la semana.</option>
+    </select><br><br>
+
+    <legend style="color:blueviolet;font-weight:bold;">Escriba aquí su opinión:</legend>
+    <textarea name="Opinión sobre nuestra pagina web" id="opinion" cols="40" rows="5" placeholder="Opina sobre nuestra pagina web"></textarea><br> <br>
+    
+    <legend style="color:blueviolet;font-weight:bold;">Escriba aquí sus sugerencias:</legend>
+    <textarea name="comentario" id="comentario" cols="40" rows="5" placeholder="Ecribe tus comentarios"></textarea><br><br>
+    
+    <input type="reset" value="Enviar formulario"> <br>
+    <input type="submit" value="Borrar formulario"><br>
+
+   </table>
+</body>
+</html>
